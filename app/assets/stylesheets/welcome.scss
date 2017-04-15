@@ -1,3 +1,73 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+html, body {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar {
+  border: 0 !important;
+}
+
+.navbar-brand {
+    font-family: 'Lemon', cursive;
+    font-size: 2.5em;
+    color: white;
+    padding-top: 11px;
+}
+
+.navbar-right {
+    padding-top: 5px;
+}
+
+.responsiveImage {
+    width: 100%; height: auto;
+}
+
+.navbar-toggle {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.opaque-navbar {
+    background-image: linear-gradient(to bottom, rgba(51,52,71,0.7), rgba(51,52,71,0));
+    background-color: rgba(255,255,255,0);
+    border-color: rgba(216,220,230,0);
+    box-shadow: 0 3px 3px transparent;
+    height: 70px;
+    border-bottom: 0px;
+    transition: background-color .5s ease 0s;
+    padding-top: 10px;
+}
+
+.navbar-right {
+    margin-right: 0px;
+}
+
+.navbar-nav a {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.navbar-toggle {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.nav>li>a:focus, .nav>li>a:hover, .navbar-brand:focus, .navbar-brand:hover {
+    color: #e57d9c;
+    background-color: transparent;
+}
+
+.sayHello:focus, .sayHello:hover {
+    color: inherit;
+}
+
+.carousel-caption {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
